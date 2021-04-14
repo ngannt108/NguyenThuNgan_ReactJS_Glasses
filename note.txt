@@ -1,0 +1,34 @@
+***ReactJS la thu vien cua JS
+1. cai dat project
+ npx create-react-app my-app
+2. chay project
+ 2.1 Mo terminal ngay tai file package.json
+ 2.2 go lenh: npm run start
+3. Tai lieu reactJS 
+https://reactjs.org/docs/getting-started.html
+4. Flow code reactJS: index.html => index.js => App.js
+5. ReactJS sẽ không hiểu html, mà nó chỉ hiểu jsx (class => className)
+6. Lý do dùng component là:
+    - Dễ quản lý (chia để trị)
+    - Tái sử dụng (ưu tiên hàng đầu)
+7. Điều kiện để tạo ra 1 component
+    - Tái sử dụng (ưu tiên hàng đầu)
+    - Dễ quản lý (chia để trị)
+8. Có 2 dạng componnent
+    - class
+    - function
+9. Data-Binding: là cách đưa biến hay thuộc tính ra html
+10. state: 
+    - Dùng để lưu những dữ liệu của component
+    - Giúp đồng bộ UI và Value của component
+11. props:
+    - props là thuộc tính của component(property)
+    - props dùng để truyền data từ component -> component
+
+Bonus: 
+1. 1 website thuong co 2 dang
+    - single page application (chuyen trang khong bi load)
+    - multiple page application (chuyen trang khong bi load) - performance khong tot bang single page application vi phai tai data css html, js,...
+2. Ve mat SEO thi multiple page application tot hon single page application
+3. ReactJS (single page application) thi khong SEO tot nhung NEXTJS (nextjs.org) giup reactjs SEO tot hon
+
